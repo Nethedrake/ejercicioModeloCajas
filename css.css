@@ -9,11 +9,12 @@ header{
 }
 section{
     background-color: rgb(101, 122, 101);
-    overflow:hidden;
+    display: flex;
+    flex-direction: column-reverse;
 }
 nav{
     width: 25%;
-    float: left;
+    display: inline-block;
     background-color: brown;
 }
 footer{
@@ -24,7 +25,6 @@ footer{
 article{
     width: 75%;
     height: 250px;
-    float: left;
     background-color: rgb(57, 82, 82);
 }
 #container {
