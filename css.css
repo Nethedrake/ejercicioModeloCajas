@@ -1,0 +1,35 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: blue;
+    height: 60px;
+}
+section{
+    background-color: rgb(101, 122, 101);
+    overflow:hidden;
+}
+nav{
+    width: 25%;
+    float: left;
+    background-color: brown;
+}
+footer{
+    background-color: blueviolet;
+    height: 80px;
+
+}
+article{
+    width: 75%;
+    height: 250px;
+    float: left;
+    background-color: rgb(57, 82, 82);
+}
+#container {
+    margin: 0 auto;
+    width: 1200px;
+    background-color: darkgreen;
+
+}
